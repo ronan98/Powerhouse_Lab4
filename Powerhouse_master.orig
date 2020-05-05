@@ -25,6 +25,9 @@ if number > 1:
         print(number, "is a prime number")
             
 else:
+<<<<<<< HEAD
+    print(number, "is not a prime number")
+=======
     print(number, "is not a prime number")
 
 #Abdullah alharthi
@@ -45,3 +48,4 @@ for i in range(F):
     One = Two
 
     Two = store+Two
+>>>>>>> abdullah-alHarthi
