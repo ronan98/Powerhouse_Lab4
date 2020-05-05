@@ -12,3 +12,17 @@ def reverseString(string):
 stringInput = input("Enter a string you want reversed: ")
 print("\n\nYou have entered the string: ", stringInput)
 reverseString(stringInput)
+
+#Justin Ciccone Part B
+number = int(input("enter any number"))
+
+if number > 1:
+    for i in range(2, number):
+        if(number % i) == 0:
+            print(number, "is not a prime number")
+            break
+    else:
+        print(number, "is a prime number")
+            
+else:
+    print(number, "is not a prime number")
